@@ -11,5 +11,17 @@ def home():
 def hockey():
     return render_template('hockey.html')
 
+@app.route("/boxing")
+def boxing():
+    return render_template('boxing.html')
+
+@app.route("/netball")
+def netball():
+    return render_template('netball.html')
+
+@app.route("/formula1")
+def formula1():
+    return render_template('formula1.html')
+
 if __name__ == '__main__':
     app.run(host="localhost", debug=True, port=9000)
