@@ -25,7 +25,7 @@ def formula1():
 
 @app.route("/w-series")
 def wseries():
-    return render_template('W-series.html')
+    return render_template('wseries.html')
 
 @app.route("/football")
 def football():
