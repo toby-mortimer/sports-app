@@ -9,10 +9,10 @@
 
 .container{
 position: absolute;
-width: 800px;
-height: 1200px;
+width: 100vh;
+height: 100vh;
 background: linear-gradient(108.23deg, rgba(255, 184, 0, 0.6) 0%, rgba(141, 90, 14, 0.7) 100%);
-grid-template-columns: 800px;
+grid-template-columns: 800vh;
 grid-template-rows: 12.5% 75% 12.5%;
 grid-template-areas: 
 "header"
@@ -22,8 +22,8 @@ grid-template-areas:
 }
 
 .header {
-width: 800px;
-height: 150px;
+width: 80vh;
+height: 10%;
 grid-area: header;
 display: flex;
 align-items: center;
@@ -31,14 +31,14 @@ justify-content: center;
 }
 
 .main {
-width: 800px;
-height: 900px;
+width: 80vh;
+height: 80%;
 grid-area: main;
 }
 
 .footer {
-width: 800px;
-height: 150px;
+width: 80vh;
+height: 10%;
 padding: 5%;
 grid-area: footer;
 display: flex;

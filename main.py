@@ -23,7 +23,7 @@ def netball():
 def formula1():
     return render_template('formula1.html')
 
-@app.route("/w-series")
+@app.route("/wseries")
 def wseries():
     return render_template('wseries.html')
 
