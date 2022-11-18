@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./static/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <title>Home</title>
 </head>
 <body>
@@ -13,12 +17,26 @@
             <h1>SportChecker</h1>
         </section>
         <section class="main">
-            <p>oh hello there</p>
+            <!-- Slider main container -->
+            <div class="swiper">
+    <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+      <!-- Slides -->
+                    <div class="swiper-slide"><img src="../static/slider-images/hockey.jpeg" alt="Football"></div>
+                    <div class="swiper-slide"><img src="../static/football.css" alt=""></div>
+                    <div class="swiper-slide">Slide 3</div>
+      ...
+                </div>
+    <!-- If we need pagination -->
+                <div class="swiper-pagination"></div> 
+            </div>
         </section>
         <section class="footer">
             <a href="tmortimer@s6c.mlp.college">Contact Us</a>
             <a href="https://forms.gle/o41BBW9eXFy4Z8uA7">Help Improve Our App</a>
         </section>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>
