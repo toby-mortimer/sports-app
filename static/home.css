@@ -31,6 +31,7 @@
     width: 90vw;
     height: 75vh;
     grid-area: main;
+    display: flex;
 }
 
 .footer {
