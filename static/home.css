@@ -55,3 +55,7 @@ h1 {
     color: white;
     font-size: 300%;
 }
+
+.carousel-slider img{
+    width: 100%;
+}
