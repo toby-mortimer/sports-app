@@ -17,14 +17,29 @@
             <h1>SportChecker</h1>
         </section>
         <section class="main">
-            <div class="carousel-container">   
-                <div class="carousel-slider">
-                    <img src="../static/slider-images/football.jpeg" alt="">
-                    <img src="../static/slider-images/formula-1-sao-paulo-gp-2022-se-2.jpeg" alt="">
-                    <img src="../static/slider-images/hockey.jpeg" alt="">
-                    <img src="../static/slider-images/netball.jpeg" alt="">
-                    <img src="../static/slider-images/tennis.jpeg" alt="">
-                    <img src="../static/slider-images/wseries.jpeg" alt="">
+            <div class="slideshow-container">   
+                <div class="mySlides fade">
+                    <img src="../static/slider-images/football.jpeg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="../static/slider-images/formula-1-sao-paulo-gp-2022-se-2.jpeg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="../static/slider-images/hockey.jpeg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="../static/slider-images/netball.jpeg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="../static/slider-images/tennis.jpeg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="../static/slider-images/wseries.jpeg">
+                </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
             </div>
             <button id="prevBtn"> Prev</button>
             <button id="nextBtn">Next</button>
