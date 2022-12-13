@@ -15,6 +15,10 @@ def hockey():
 def hockey_news():
     return render_template('hockey_news.html')
 
+@app.route("/hockey/highlights")
+def hockey_highlights():
+    return render_template('hockey_highlights.html')
+
 @app.route("/boxing")
 def boxing():
     return render_template('boxing.html')
